@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تفاصيل المنتج | متجر خضرون</title>
+  <link rel="stylesheet" href="styles.css?v=28" />
+</head>
+<body class="product-page">
+  <header class="site-header">
+    <a class="header-brand" href="index.html#home">
+      <img src="assets/brand/logo.jpeg" alt="شعار متجر خضرون" />
+      <span>متجر خضرون</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false">
+      <i data-lucide="menu"></i>
+    </button>
+  </header>
+
+  <div class="offer-strip" aria-label="عرض متحرك">
+    <div class="offer-track">
+      <span>حياكم في متجر خضرون</span>
+      <span>أجهزة كونسول يابانية وأشرطة مختارة</span>
+      <span>قطع نظيفة لمحبي البلايستيشن</span>
+      <span>حياكم في متجر خضرون</span>
+      <span>أجهزة كونسول يابانية وأشرطة مختارة</span>
+      <span>قطع نظيفة لمحبي البلايستيشن</span>
+    </div>
+  </div>
+
+  <div class="page-shell">
+    <aside class="sidebar" aria-label="القائمة الجانبية">
+      <a class="brand" href="index.html#home">
+        <span class="brand-mark">
+          <img src="assets/brand/logo.jpeg" alt="شعار متجر خضرون" />
+        </span>
+        <span>
+          <strong>متجر خضرون</strong>
+          <small>أجهزة وأشرطة مختارة</small>
+        </span>
+      </a>
+
+      <nav class="side-nav">
+        <a class="nav-link" href="index.html#home">
+          <i data-lucide="home"></i>
+          <span>الصفحة الرئيسية</span>
+        </a>
+        <a class="nav-link" href="index.html#consoles">
+          <i data-lucide="gamepad-2"></i>
+          <span>أجهزة الكونسول</span>
+        </a>
+        <a class="nav-link" href="index.html#games">
+          <i data-lucide="disc-3"></i>
+          <span>أشرطة الألعاب</span>
+        </a>
+        <a class="nav-link" href="index.html#rare">
+          <i data-lucide="sparkles"></i>
+          <span>قطع نادرة</span>
+        </a>
+      </nav>
+
+    </aside>
+
+    <main class="content">
+      <section class="detail-shell" data-product-detail>
+        <a class="back-link" href="index.html#products">الرجوع للمنتجات</a>
+        <div class="detail-hero">
+          <div class="detail-gallery">
+            <div class="detail-media">
+              <img data-detail-image alt="" />
+            </div>
+            <div class="image-thumbs" data-detail-thumbs aria-label="صور المنتج"></div>
+          </div>
+          <div class="detail-copy">
+            <span class="tag" data-detail-badge></span>
+            <h1 data-detail-name></h1>
+            <p data-detail-description></p>
+            <div class="detail-price-row">
+              <strong class="detail-price" data-detail-price></strong>
+              <span class="detail-old-price" data-detail-old-price></span>
+            </div>
+            <div class="detail-actions">
+              <a class="primary-btn whatsapp-btn" href="#" target="_blank" rel="noopener" data-whatsapp-order>أطلبها الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <section class="detail-specs" aria-label="مواصفات المنتج">
+          <div class="spec-heading">
+            <span>نظرة سريعة</span>
+            <h2>وش يميّزه؟</h2>
+          </div>
+          <ul class="spec-list" data-detail-specs></ul>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <div class="backdrop" hidden></div>
+  <footer class="site-footer">© 2026 متجر خضرون. جميع الحقوق محفوظة.</footer>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="products.js?v=28"></script>
+  <script src="script.js?v=28"></script>
+  <script src="product-detail.js?v=29"></script>
+</body>
+</html>
