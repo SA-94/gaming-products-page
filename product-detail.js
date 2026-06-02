@@ -16,7 +16,7 @@ function buildWhatsAppUrl(product) {
   const details = product.specs.map((spec) => `- ${spec}`).join("\n");
   const message = [
     "السلام عليكم",
-    "أبغى أحجز هذا المنتج من متجر خضرون:",
+    "أبغى أحجز هذا المنتج من متجر خضرون / kzron store:",
     "",
     `المنتج: ${product.name}`,
     `الفئة: ${product.badge}`,
@@ -49,7 +49,7 @@ if (!product && detailRoot) {
 }
 
 if (product) {
-  document.title = `${product.name} | متجر خضرون`;
+  document.title = `${product.name} | متجر خضرون / kzron store`;
 
   setMainImage(product.images[0], product.name);
   document.querySelector("[data-detail-badge]").textContent = product.badge;

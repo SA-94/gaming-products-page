@@ -16,6 +16,12 @@ window.PRODUCT_GROUPS = [
     title: "قطع نادرة وإصدارات يابانية",
     eyebrow: "النادر",
     description: "إصدارات يابانية ونسخ كابكوم لعشاق التجميع."
+  },
+  {
+    id: "movies",
+    title: "أفلام العراب",
+    eyebrow: "الأفلام",
+    description: "بكجات DVD للعراب لعشاق السينما والتجميع."
   }
 ];
 
@@ -198,5 +204,42 @@ window.GAMING_PRODUCTS = [
     ],
     description: "إصدار كابكوم من قراند سان أندرياس، ظاهر بتفاصيل الناشر الياباني لمحبي النسخ الغريبة.",
     specs: ["شريط PS2", "تفاصيل Capcom", "نسخة يابانية", "صور قريبة للتفاصيل", "مناسب للتجميع", "سعر 158﷼"]
+  },
+  {
+    id: "godfather-coppola-restoration-box",
+    group: "movies",
+    name: "بكج أفلام العراب نسخة المخرج كوبولا",
+    price: "560﷼",
+    oldPrice: "650﷼",
+    badge: "Sealed",
+    images: [
+      "assets/products/godfather-coppola-restoration-box/01.jpeg",
+      "assets/products/godfather-coppola-restoration-box/02.jpeg",
+      "assets/products/godfather-coppola-restoration-box/03.jpeg",
+      "assets/products/godfather-coppola-restoration-box/04.jpeg",
+      "assets/products/godfather-coppola-restoration-box/05.jpeg",
+      "assets/products/godfather-coppola-restoration-box/06.jpeg"
+    ],
+    description: "بكج أفلام العراب نسخة المخرج كوبولا، سيلد Sealed ولم يفتح، ومعه ملصق الشراء الياباني بسعر 9240 ين.",
+    specs: ["سيلد Sealed", "لم يفتح", "مع لزقة الشراء اليابانية", "سعر الملصق 9240 ين تقريبًا 218﷼", "يحتوي على خمس سيديات", "الأجزاء الثلاثة الكاملة", "سيدي المخرج كوبولا", "نسخة DVD"]
+  },
+  {
+    id: "godfather-20th-anniversary-box",
+    group: "movies",
+    name: "بكج أفلام العراب مرور 20 سنة",
+    price: "388﷼",
+    oldPrice: "460﷼",
+    badge: "DVD Box",
+    images: [
+      "assets/products/godfather-20th-anniversary-box/01.jpeg",
+      "assets/products/godfather-20th-anniversary-box/02.jpeg",
+      "assets/products/godfather-20th-anniversary-box/03.jpeg",
+      "assets/products/godfather-20th-anniversary-box/04.jpeg",
+      "assets/products/godfather-20th-anniversary-box/05.jpeg",
+      "assets/products/godfather-20th-anniversary-box/06.jpeg",
+      "assets/products/godfather-20th-anniversary-box/07.jpeg"
+    ],
+    description: "بكج أفلام العراب لمرور 20 سنة على الفيلم، قطعة سينمائية مرتبة لمحبي السلسلة.",
+    specs: ["يحتوي على خمس سيديات", "الأجزاء الثلاثة الكاملة", "سيدي المخرج كوبولا", "إصدار مرور 20 سنة", "صور متعددة للبكج", "سعر 388﷼"]
   }
 ];
