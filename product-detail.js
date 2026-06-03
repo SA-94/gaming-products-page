@@ -13,24 +13,24 @@ function buildWhatsAppUrl(product) {
   const phone = "966508572076";
   const imageUrl = new URL(product.images[0], window.location.href).href;
   const productUrl = window.location.href.split("#")[0];
-  const details = product.specs.map((spec) => `- ${spec}`).join("\n");
+  const details = product.specs.map((spec) => `• ${spec}`).join("\n");
   const message = [
-    "السلام عليكم",
-    "أبغى أحجز هذا المنتج من متجر خضرون / kzron store:",
+    "السلام عليكم 👋",
+    "أبغى أطلب هذا المنتج من متجر خضرون / kzron store:",
     "",
-    `المنتج: ${product.name}`,
-    `الفئة: ${product.badge}`,
-    `السعر: ${product.price}`,
-    `قبل: ${product.oldPrice}`,
+    `🎮 المنتج: ${product.name}`,
+    `🏷️ الفئة: ${product.badge}`,
+    `💰 السعر: ${product.price}`,
+    `📉 قبل الخصم: ${product.oldPrice}`,
     "",
-    "الوصف:",
+    "📝 الوصف:",
     product.description,
     "",
-    "التفاصيل:",
+    "✨ التفاصيل:",
     details,
     "",
-    `صورة المنتج: ${imageUrl}`,
-    `رابط المنتج: ${productUrl}`,
+    `🖼️ صورة المنتج: ${imageUrl}`,
+    `🔗 رابط المنتج: ${productUrl}`,
     "",
     "هل المنتج متوفر؟"
   ].join("\n");
@@ -86,6 +86,7 @@ if (product) {
     const button = thumbButtons[activeImageIndex];
     setMainImage(button.dataset.imageSrc, product.name);
     thumbButtons.forEach((item) => item.classList.toggle("active", item === button));
+    button.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
   }
 
   function startGalleryRotation() {
