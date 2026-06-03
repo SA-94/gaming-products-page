@@ -206,6 +206,27 @@ window.GAMING_PRODUCTS = [
     specs: ["شريط PS2", "تفاصيل Capcom", "نسخة يابانية", "صور قريبة للتفاصيل", "مناسب للتجميع", "سعر 158﷼"]
   },
   {
+    id: "godfather-50th-anniversary-trilogy",
+    group: "movies",
+    name: "بكج ثلاثية العراب - نسخة اليوبيل الذهبي 50",
+    price: "690﷼",
+    oldPrice: "790﷼",
+    badge: "4K Sealed",
+    images: [
+      "assets/products/godfather-50th-anniversary-trilogy/01.jpeg",
+      "assets/products/godfather-50th-anniversary-trilogy/02.jpeg",
+      "assets/products/godfather-50th-anniversary-trilogy/03.jpeg",
+      "assets/products/godfather-50th-anniversary-trilogy/04.jpeg",
+      "assets/products/godfather-50th-anniversary-trilogy/05.jpeg",
+      "assets/products/godfather-50th-anniversary-trilogy/06.jpeg",
+      "assets/products/godfather-50th-anniversary-trilogy/07.jpeg",
+      "assets/products/godfather-50th-anniversary-trilogy/08.jpeg",
+      "assets/products/godfather-50th-anniversary-trilogy/09.jpeg"
+    ],
+    description: "بكج ثلاثية العراب The Godfather Trilogy نسخة اليوبيل الذهبي 50، جديد ومغلف Sealed لعشاق السينما والتجميع.",
+    specs: ["نسخة اليوبيل الذهبي 50", "جديد بتغليف المصنع Sealed", "4K Ultra HD + Blu-ray", "الأفلام الثلاثة كاملة", "مواد إضافية وكواليس وترميم", "تصميم أسود وذهبي فاخر", "نسخة نادرة جدًا", "سعر 690﷼"]
+  },
+  {
     id: "godfather-coppola-restoration-box",
     group: "movies",
     name: "بكج أفلام العراب نسخة المخرج كوبولا",
